@@ -11,3 +11,5 @@ Natomiast skrypt **get_full_data.py** (po uzupełnieniu klucza api w *utils/api_
 -----
 
 Zezwalam jako autor na wykorzystanie skryptów w celach edukacyjnych. Zebrane dane pozwalam wykorzystać po wcześniejszym [kontakcie mailowym](mailto:prokulski@gmail.com).
+
+Poza tym zapraszam na fanpage **[Dane i Analizy](https://fb.com/DaneAnalizy)** oraz **[bloga](https://blog.prokulski.science)**.
