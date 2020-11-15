@@ -42,3 +42,7 @@ for row in wykaz.iterrows():
             full_df = full_df.append(pd.DataFrame(temp_df, index=[0]))
 
     full_df.to_csv('lista_beneficjentow_uzupelniona.csv', index=False)
+
+
+full_df = full_df.merge(wykaz, how='left', left_on='entry', right_on='entry')
+full_df.to_csv('lista_krs_dodatacja.csv', index=False)
