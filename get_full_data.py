@@ -44,5 +44,8 @@ for row in wykaz.iterrows():
     full_df.to_csv('lista_beneficjentow_uzupelniona.csv', index=False)
 
 
-full_df = full_df.merge(wykaz, how='left', left_on='entry', right_on='entry')
-full_df.to_csv('lista_krs_dodatacja.csv', index=False)
+full_df = full_df.merge(wykaz,
+                        how='left',
+                        left_on='entry',
+                        right_on='nazwa_jednostki')
+full_df.to_csv('lista_krs_dotacja.csv', index=False)
