@@ -7,8 +7,8 @@ wykaz = pd.read_csv('lista_beneficjentow.csv')
 
 full_df = pd.DataFrame()
 
-for row in wykaz.iterrows():
-    entry = row[1]['nazwa_jednostki']
+for _, row in wykaz.iterrows():
+    entry = row['nazwa_jednostki']
 
     print(entry)
 

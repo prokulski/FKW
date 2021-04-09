@@ -7,6 +7,9 @@ rejestr_url = 'https://rejestr.io/api/v1'
 
 
 def api_search(name):
+    """
+    Funkcja szuka w KRSie firmy o podanej nazwie, zwraca response z API
+    """
     query_url = rejestr_url + '/krs?' + urlencode({'name': name,
                                                    'w_likwidacji': 0,
                                                    'w_upadlosci': 0,
